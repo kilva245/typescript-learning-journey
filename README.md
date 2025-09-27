@@ -6,6 +6,14 @@ This repository serves as a dedicated space to document my learning process, sto
 
 ---
 
+## 📚 Repository Structure and Content
+
+Projects and exercises are primarily structured based on the core resources I am currently using:
+
+| Folder | Content | Status |
+| :--- | :--- | :--- |
+| **`aparat-course-exercises`** | **Hands-on practice and code associated with the main Aparat course.** | ✅ **In Progress** |
+
 ### **Primary Learning Resource**
 
 The exercises in the dedicated folder are based on the following free educational course:
@@ -18,13 +26,14 @@ The exercises in the dedicated folder are based on the following free educationa
 
 ## 💡 Key Concepts Learned So Far
 
-As I progress, the key foundational concepts I have focused on and mastered in the initial stages include:
+As I progress, the key foundational concepts and practical steps I have focused on and successfully executed include:
 
--   **What is TypeScript?** Understanding the basic definition and its role as a superset of JavaScript.
--   **Purpose and Benefits:** Recognizing what TypeScript is good for (e.g., enhanced tooling, better scalability, catching errors early).
--   **Static Typing:** Grasping the core concept of static typing and how it enforces type checking during development.
--   **The Compilation Process:** Learning how the TS code is compiled down to clean, plain JavaScript (using the `tsc` compiler).
--   **Reasons for Adoption:** Understanding the key drivers and industry reasons for adopting TypeScript in professional projects.
+-   **TypeScript Fundamentals:** Understanding the basic definition, its purpose, and the concept of static typing versus JavaScript's dynamic typing.
+-   **Reasons for Adoption:** Recognizing the core benefits of using TS (scalability, better tooling, catching errors early).
+-   **Environment Setup:** Successfully installing the **TypeScript compiler** globally using `npm install -g typescript`.
+-   **Compiler Initialization:** Understanding the use of `tsc --init` to create a `tsconfig.json` file, and verifying installation with `tsc -v`.
+-   **First TS File Execution:** Creating an `index.ts` file, writing a typed variable (`let message: string = '...'`), and successfully compiling it to `index.js` using the command `tsc index.ts` for browser execution.
+
 
 ---
 
